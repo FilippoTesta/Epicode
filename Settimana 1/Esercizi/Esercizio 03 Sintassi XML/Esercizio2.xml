@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes'?>
+<publication>
+    <newsitem>
+        <source>
+            <agency>STT</agency>
+            <editor>Miller</editor>
+        </source>
+        <class>local</class>
+        <article>
+            <heading>Tempesta di neve in Lapponia</heading>
+            <text>neve.html</text>
+            <summary>nevex.html</summary>
+        </article>
+    </newsitem>
+</publication>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD serial='B6B41B' disc-length='54:47'>
+    <record_company>Sweet Silence</record_company>
+    <artist>Metallica</artist>
+    <title>Master of Puppets</title>
+    <genre>Metal</genre>
+    <date_released>
+        <day>03</day>
+        <month>03</month>
+        <year>1986</year>
+    </date_released>
+    <price>19.99</price>
+    <!--segue elenco canzoni-->
+    <tracks number='08'>
+        <listing>
+    <!--canzoni primo disco-->
+            <side_one>
+                <song>
+                    <track>01</track>
+                    <title>Battery</title>
+                    <leng>
+                        <minutes>05</minutes>
+                        <seconds>13</seconds>
+                     </leng>
+                </song>
+                <song>
+                    <track>02</track>
+                    <title>Master of Puppets</title>
+                    <leng>
+                        <minutes>08</minutes>
+                        <seconds>36</seconds>
+                    </leng>
+                </song>
+                <song>
+                    <track>03</track>
+                    <title>The Thing That Should Not Be</title>
+                    <leng>
+                        <minutes>06</minutes>
+                        <seconds>36</seconds>
+                    </leng>
+                </song>
+                <song>
+                    <track>04</track>
+                    <title>Welcome Home</title>
+                    <leng>
+                        <minutes>06</minutes>
+                        <seconds>27</seconds>
+                     </leng>
+                </song>
+            </side_one>
+<!--canzoni secondo disco-->
+            <side_two>
+                <song>
+                    <track>05</track>
+                    <title>Disposable Heroes</title>
+                    <leng>
+                        <minutes>08</minutes>
+                         <seconds>17</seconds>
+                    </leng>
+                </song>
+                <song>
+                    <track>06</track>
+                    <title>Leper Messiah</title>
+                    <leng>
+                        <minutes>05</minutes>
+                        <seconds>40</seconds>
+                    </leng>
+                </song>
+                <song>
+                    <track>07</track>
+                    <title>Orion</title>
+                    <leng>
+                        <minutes>08</minutes>
+                        <seconds>27</seconds>
+                    </leng>
+                </song>
+                <song>
+                    <track>08</track>
+                    <title>Damage Inc</title>
+                    <leng>
+                        <minutes>05</minutes>
+                        <seconds>32</seconds>
+                    </leng>
+                </song>
+            </side_two>
+        </listing>
+    </tracks>
+</CD> 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lettera>
+    <mittente>
+        <nome>Maurizio</nome>
+        <cognome>Rossi</cognome>
+        <indirizzo>
+            <via>Via Romoli</via>
+                <civico>19</civico>
+            <citta>Milano</citta>
+            <cap>20019</cap>
+            <stato>Italia</stato>
+        </indirizzo>
+    </mittente>
+    <destinatario>
+        <nome>Lorenzo</nome>
+        <cognome>Verdi</cognome>
+        <indirizzo>
+            <via>Via Lucrezio</via>
+                <civico>78</civico>
+            <citta>Roma</citta>
+            <cap>00100</cap>
+            <stato>Italia</stato>
+        </indirizzo>
+    </destinatario>
+    <data>
+        <giorno>28</giorno>
+        <mese>09</mese>
+        <anno>2022</anno>
+    </data>
+    <testo>
+        <titolo>Lorem ipsum dolor sit amet</titolo>
+        <corpo>In finibus massa massa, eget maximus felis varius sed.</corpo>
+        <firma>Maurizio Rossi</firma>
+    </testo>
+</lettera>
