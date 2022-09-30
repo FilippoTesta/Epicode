@@ -1,0 +1,13 @@
+Codice,Nome,Cognome,Eta,Genere,No. Carta Identita,Nazionalita,Altezza(cm),Peso(kg),Comorbidita,Data Ricovero,Data Dimissione,Farmaci,Note
+"C19-162,Eleonora,Longo,54,F,SV26132107,IT,161,100.5,,""12,09,2020"",""04,03,2021"",""""Tocilizumab""Actemra"",""La paziente e stata ricoverata in evidente stato di realizzazione.\nTenere sotto osservazione e valutare trattamento di sintomi di ansia."
+"C19-163,Lazzaro,Pinto,64,M,IJ60671651,IT,177,85.7,ipertensione arteriosa,""12,09,2020"",""01,07,2021"",""""Baricitinib""Olumiant"", "
+"C19-452,Germana,Lettiere,59,F,WJ96731660,IT,165,68.0,,""16,09,2020"",""18,12,2020"",""""Tocilizumab""Actemra"","
+"C19-453,Marco,Romani,28,M,NK43553283,IT,171,93.7,diabete,""16,09,2020"",""11,10,2020"",Azitromicina,"
+"C19-454,Dino,Esposito,74,M,LV97224979,IT,170,61.6,HIV,""16,09,2020"",""06,04,2021"",""""Idrossiclorochina""Plaquenil"",""Il paziente presenta segni di malnutrizione.\nTenere in considerazione sondino gastrico"""
+"C19-565,Maria,Luft,34,F,,GR,174,51.9,,""17,01,2021"",""22,03,2021"",Azitromicina,"
+"C19-696,Gaetana,Trevisani,42,F,WW52407045,IT,161,93.2,,""23,02,2021"",""11,06,2021"",""""Tocilizumab""Actemra"","
+"C19-697,Clara,Greco,55,F,CE27651216,IT,164,56.2,,""23,02,2021"",""11,09,2021"",""""Lopinavir""Kaletra"","
+"C19-788,Francesco,Dellucci,42,M,XY70964005,IT,172,93.1,Epatite cronica,""23,02,2021"",""15,08,2021"",,"
+"C19-889,David,Chapin,63,M,,FR,166,98.1,,""13,09,2022"",""15,09,2022"",,"
+"C19-910,Ilaria,Colombo,27,F,EQ66988123,IT,160,79.2,,""13,09,2022"",,Azitromicina,"
+"C19-911,Francesca,Napolitani,83,F,EO1137773,IT,154,66.5,,""29.09.2022"",,Azitromicina,"
