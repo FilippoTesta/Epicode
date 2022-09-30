@@ -1,0 +1,112 @@
+{"ospedalizzazioni": {
+    "regioni": [   
+      {
+        "cod_ospedalizzazione":"O19-1271",
+        "cod_regione":"LAZ",
+        "ospedale":"Ospedale San Pietro",
+        "citta":"Roma",
+        "data":{
+            "giorno":12,
+            "mese":9,
+            "anno":2020
+                },
+        "paz_covid":["C19-162","C19-163"]},
+    {
+        "cod_ospedalizzazione":"O19-1399",
+        "cod_regione": "PUG",
+        "ospedale":"Ospedale San Paolo",
+        "citta":"Bari",
+        "data":{
+            "giorno":16,
+            "mese":9,
+            "anno":2020
+                },
+        "paz_covid":"C19-452"},
+{
+        "cod_ospedalizzazione":"O19-1400",
+        "cod_regione":"LAZ",
+        "ospedale":"Policlinico Gemelli",
+        "citta":"Roma",
+        "data":{
+            "giorno":16,
+            "mese":9,
+            "anno":2020
+                },
+        "paz_covid":["C19-453","C19-454"]},
+{
+        "cod_ospedalizzazione":"O19-679231",
+        "cod_regione":"TOS",
+        "ospedale":"Ospedale Piero Palagi",
+        "citta":"Firenze",
+        "data":{
+            "giorno":17,
+            "mese":1,
+            "anno":2021
+                },
+        "paz_covid":"C19-565"},
+{
+        "cod_ospedalizzazione":"O19-1116244",
+        "cod_regione":"UMB",
+        "ospedale":"Ospedale Santa Maria della Stella",
+        "citta":"Orvieto",
+        "data":{
+            "giorno":23,
+            "mese":2,
+            "anno":2021
+                },
+        "paz_covid":"C19-696"},
+{
+        "cod_ospedalizzazione":"O19-1116245",
+        "cod_regione":"LOM",
+        "ospedale":"Ospedale Luigi Sacco",
+        "citta":"Milano",
+        "data":{
+            "giorno":23,
+            "mese":2,
+            "anno":2021
+                },
+        "paz_covid":"C19-697"},
+{
+        "cod_ospedalizzazione":"O19-1116246",
+        "cod_regione":"MAR",
+        "ospedale":"Ancona Hospital Salesi",
+        "citta":"Ancona",
+        "data":{
+            "giorno":23,
+            "mese":2,
+            "anno":2021
+                },
+        "paz_covid":"C19-788"},
+{
+        "cod_ospedalizzazione":"O19-1516201",
+        "cod_regione":"SIC",
+        "ospedale":"Presidio Ospedaliero Villa Sofia",
+        "citta":"Palermo",
+        "data":{
+            "giorno":13,
+            "mese":9,
+            "anno":2022
+                },
+        "paz_covid":"C19-889"},
+{
+        "cod_ospedalizzazione":"O19-1516202",
+        "cod_regione":"CAM",
+        "ospedale":"Fatebenefratelli Hospital",
+        "citta":"Napoli",
+        "data":{
+            "giorno":13,
+            "mese":9,
+            "anno":2022
+                },
+        "paz_covid":"C19-910"},
+{ 
+        "cod_ospedalizzazione":"O19-1516977",
+        "cod_regione":"PIE",
+        "ospedale":"Maria Vittoria Hospital",
+        "citta":"Torino",
+        "data":{
+            "giorno":29,
+            "mese":9,
+            "anno":2022
+                },
+        "paz_covid":"C19-911"}]}}
