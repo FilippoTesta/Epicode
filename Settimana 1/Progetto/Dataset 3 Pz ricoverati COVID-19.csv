@@ -1,5 +1,5 @@
 Codice,Nome,Cognome,Eta,Sesso,No. Carta Identita,Nazionalita,Altezza(cm),Peso(kg),Comorbidita,Data Ricovero,Data Dimissione,Farmaci,Note
-"C19-162,Eleonora,Longo,54,F,SV26132107,IT,161,100.5,,""12,09,2020"",""04,03,2021"",""""Tocilizumab""Actemra"",""La paziente e stata ricoverata in evidente stato di realizzazione.\nTenere sotto osservazione e valutare trattamento di sintomi di ansia."
+"C19-162,Eleonora,Longo,54,F,SV26132107,IT,161,100.5,,""12,09,2020"",""04,03,2021"",""""Tocilizumab""Actemra"","La paziente e stata ricoverata in evidente stato di realizzazione.\nTenere sotto osservazione e valutare trattamento di sintomi di ansia."
 "C19-163,Lazzaro,Pinto,64,M,IJ60671651,IT,177,85.7,ipertensione arteriosa,""12,09,2020"",""01,07,2021"",""""Baricitinib""Olumiant"", "
 "C19-452,Germana,Lettiere,59,F,WJ96731660,IT,165,68.0,,""16,09,2020"",""18,12,2020"",""""Tocilizumab""Actemra"","
 "C19-453,Marco,Romani,28,M,NK43553283,IT,171,93.7,diabete,""16,09,2020"",""11,10,2020"",Azitromicina,"
