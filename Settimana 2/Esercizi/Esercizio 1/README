@@ -2,4 +2,5 @@ L'esercizio è mirato a prendere confidenza con i diagrammi di flusso.
 Parte 1: letti in input 3 numeri visualizzare il massimo
 Parte 2: letti in input n numeri visualizzare il massimo
 Parte 3: letti in input due numeri interi positivi 'base' ed 'esponente', calcolare e visualizzare la potenza in 'base' ed 'esponente'
-Parte 4: letti in input due numeri interi positivi 'primo' e 'secondo' con 'secondo' > 'primo', generare e visualizzare in ordine decrescente i numeri compresi tra 'primo' e 'secondo'
+Parte 4: letti in input due numeri interi positivi 'primo' e 'secondo' con 'secondo' > 'primo', generare e visualizzare in ordine decrescente i numeri compresi 
+tra 'primo' e 'secondo'
