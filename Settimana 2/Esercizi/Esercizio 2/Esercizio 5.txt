@@ -1,0 +1,14 @@
+"""
+Esercizio 5: Scrivi un programma che chiede in input all'utente una stringa e visualizza i primi 3 caratteri,
+seguiti da 3 punti di sospensione e quindi gli ultimi 3 caratteri.
+"""
+
+stringa=input('Inserisci una frase:')
+
+#Controllo che la stringa sia di almeno 3 caratteri
+while len(stringa) < 3:
+    print('Occorre inserire una frase di almeno 3 caratteri')
+    stringa = input('Inserisci una frase:')
+    
+print(stringa[:3],'...',stringa[-3:])
+print('Fine programma')

@@ -1,0 +1,22 @@
+"""
+Esercizio 4: Scrivi un programma che chiede in input all'utente una misura in metri e la converte in miglia, 
+piedi e pollici
+
+"""
+
+misura = float(input('Inserisci una misura in metri:'))
+
+#Creazione delle variabili per i fattori di conversione nelle varie misure
+fattore_miglia = 0.000621
+fattore_piedi = 3.28084
+fattore_pollici = 39.3701
+
+#Calcolo delle conversioni
+misura_miglia =misura*fattore_miglia
+misura_piedi =misura*fattore_piedi
+misura_pollici = misura**fattore_pollici
+
+print(misura,'m corrispondono a', misura_miglia, 'miglia')
+print(misura,'m corrispondono a', misura_piedi, 'piedi')
+print(misura,'m corrispondono a', misura_pollici, 'pollici')
+print('Fine programma')

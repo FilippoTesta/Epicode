@@ -1,0 +1,36 @@
+"""
+Esercizio 2: Una persona brilla è all'interno di una griglia di strade (al centro di un incrocio), 
+e in modo del tutto casuale prende una delle 4 direzioni (nord è +, sud è -, est è +, ovest è -) 
+e si muoverà di un numero casuale di passi (da 1 a 10) che lo porterà al centro di un nuovo incrocio. 
+Rappresenta la posizione della persona con la coppia di interi (x, y). Immagina che la persona sia 
+all'interno di un piano cartesiano (x asse delle ordinate, y asse delle ascisse), implementa il cammino 
+della persona brilla per 100 intersezioni a partire dalla posizione (0, 0), visualizza la posizione finale. 
+Esempio, alla prima iterazione se la persona si sposta verso sud di 7 passi la sua nuova posizione sarà (0, -7), 
+se alla successiva si muove verso nord i 3 passi la sua nuova posizione sarà (0, -4)
+"""
+
+#Importo il pacchetto random
+import random
+i=0
+
+#Definisco le coordinate della posizione iniziale
+posizione_x=0
+posizione_y=0
+
+#Computo la posizione finale nel piano cartesiano
+while i < 100:
+    posizione_x+= random.randint(-10, 10)
+    posizione_y+- random.randint(-10, 10)
+    print('iterazioni',i,'posizione x:',posizione_x,'posizione y:', posizione_y)
+    i=i+1
+print("Programma finito!", "La posizione finale nel piano cartesiano é:","(x,y):","(",posizione_x,";",posizione_y,")")
+
+#Computo la posizione finale in coordinate geografiche
+if posizione_x>0 and posizione_y>0:
+    print("Programma finito! La posizione finale in coordinate geografiche è:","(",posizione_y,"N",";",posizione_x,"E",")")
+elif posizione_x>0 and posizione_y<0:
+    print("Programma finito! La posizione finale in coordinate geografiche è:","(",(-1)*posizione_y,"S",";",posizione_x,"E",")")
+elif posizione_x<0 and posizione_y>0:
+    print("Programma finito! La posizione finale in coordinate geografiche è:","(",posizione_y,"N",";",(-1)*posizione_x,"O",")")
+else:
+    print("Programma finito! La posizione finale in coordinate geografiche è::","(",(-1)*posizione_y,"S",";",(-1)*posizione_x,"O",")")

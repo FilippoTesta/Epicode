@@ -1,0 +1,29 @@
+"""
+Esercizio 3: Scrivi un programma che chiede all'utente in input:
+i litri di benzina nel serbatoio
+L'efficienza espressa in km per litro
+Il prezzo della benzina per litro
+Quindi visualizza il costo per 100 km e quanta distanza può percorrere l'auto con la benzina nel serbatoio 
+"""
+
+#Richiedo gli input all'utente
+litri_serbatoio = int(input ('Inserire litri di benzina nel tuo serbatoio:'))
+efficienza = int(input ('Inserisci l\'efficienza della tua auto espressa in km per litro:'))
+prezzo_benzina = int(input ('Inserisci il prezzo attuale della benzina:'))
+km_percorsi = 100
+
+#Calcolo costo benzina per 100km
+costo = (km_percorsi / efficienza)*prezzo_benzina
+print('Il costo della benzina per percorrere 100 km è di:', costo,'€')
+
+#Calcolo distanza che posso percorrere con l'attuale serbatoio
+distanza = efficienza * litri_serbatoio
+print('La distanza che può percorrere l\'auto con la benzina nel serbatoio è di',distanza,'km' )
+
+#Calcolo prezzo benzina considerando anche i litri già disponibili nel serbatoio
+km_mancanti = km_percorsi - distanza
+if km_mancanti < 0:
+    print ('Considerando i litri già disponibili nel serbatoio, dovrò spendere 0€ in benzina')
+else:
+    costo_mancanti= (km_mancanti/efficienza)*prezzo_benzina
+    print('Il costo della benzina considerando i litri già disponibili nel serbatorio è di:',costo_mancanti,'€')
