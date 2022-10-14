@@ -1,1 +1,8 @@
+PROGETTO BASI DI DATI CON PYTHON E MYSQL
 
+L'esercizio è mirato a prendere confidenza con l'integrazione tra Pandas, Python e MySQL.
+
+Ideazione interrogazioni per base di dati di una web app relativa ad un e-commerce di prodotti informatici, sviluppo applicazione in Python con connessione a DBMS MYSQL
+con Pandas e con il connettore, implementazione interrogazioni ideate tramite funzioni ad-hoc.
+
+Vincolo: proporre almeno 10 interrogazioni identiche, sia utilizzando i DataFrame di Pandas che utilizzando i cursori. Il database è fornito in input.
