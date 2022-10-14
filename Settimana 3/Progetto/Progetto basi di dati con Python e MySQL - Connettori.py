@@ -133,7 +133,7 @@ result2 = print_result(cursor)
 sql3 = select_from('COUNT(citta) AS numero_ordini, citta','indirizzo AS i') \
        + join('ordine AS o','i.inid=o.inid') + groupby('citta') + orderby('numero_ordini desc;')
 
-execute_query(cursor,sql)
+execute_query(cursor,sql3)
 result3 = print_result(cursor)
 
 
