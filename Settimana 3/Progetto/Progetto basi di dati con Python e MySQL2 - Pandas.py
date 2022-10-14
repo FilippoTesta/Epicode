@@ -20,7 +20,7 @@ def connection_database(user, password, host, database):
 db_connection = create_engine(connection_database('root', 'root', '127.0.0.1', 'ecommerce'))
 
 
-#01) Prime cinque categorie di prodotto più ordinate
+#01) Categorie di prodotto più ordinate
 prodotto = pd.read_sql("prodotto", db_connection)
 categoria = pd.read_sql("categoria", db_connection)
 orpr01 = pd.read_sql("orpr01", db_connection)
@@ -34,9 +34,9 @@ df01_merged = pd.merge(df_categoria, df_prodotto, on='cid')
 df01_merged2 = pd.merge(df01_merged, df_orpr01, on='pid')
 df01_grouped = df01_merged2.groupby([('nome_x')]).sum()
 df01_grouped.sort_values(by='quantita_y', ascending=False, inplace=True)
-Top5 = df01_grouped.loc[:, ['quantita_y']]
+TopCat = df01_grouped.loc[:, ['quantita_y']]
 
-#print(Top5)
+#print(TopCat)
 
 
 #02) Dieci prodotti più acquistati
@@ -45,9 +45,9 @@ df02 = df_orpr01.groupby('pid')['quantita', 'prezzo'].sum()
 df02.sort_values(by='quantita', ascending=False, inplace=True)
 df02.head(10).reset_index(inplace=True)
 df_merged03 = pd.merge(df02, df_prodotto, on='pid')
-Top10 = df_merged03[['nome', 'quantita_x']]
+TopPr = df_merged03[['nome', 'quantita_x']]
 
-#print(Top10)
+#print(TopPr)
 
 
 #03 Città da dove arrivano più ordini
