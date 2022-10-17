@@ -1,1 +1,17 @@
+ESERCIZIO 1
+Esercizio semplice ed introduttivo nell'utilizzo di Excel. Nel foglio di lavoro è presente una tabella che rappresenta degli importi riferiti a tre diverse agenzie
+relativamente a 5 mesi. 
 
+Viene chiesto di:
+1) Nella colonna G del foglio di lavoro effettuare la somma mese per mese applicando una Formula
+2) Nella colonna H del foglio di lavoro effettuare una media mese per mese applicando una Formula
+3) Nella riga 16 del foglio effettuare la somma di colonna delle tre agenzie, applicando una Funzione (fx SOMMA)
+4) Nella riga 17 del foglio effettuare la media di colonna delle tre agenzie, applicando una Funzione (fx MEDIA)
+
+ESERCIZIO 2
+Nel foglio di lavoro è presente una tabella di tre colonne con le seguenti informazioni: Cognome, Nome, e sede provinciale operativa.
+Con queste informazioni si vogliono creare gli indirizzi e-mail aziendali di tutti i dipendenti.
+Rispetto ai dati presenti sul foglio di lavoro viene chiesto di creare le e-mail applicando queste regole:
+1) Tutto il testo in minuscolo
+2) Il casellario deve essere scritto nel seguente modo: la sola iniziale del nome; punto; il cognome (senza spazi); la "@"; la sigla della provincia della sede "vr" o 
+   "vi"; punto; "azienda.it"
