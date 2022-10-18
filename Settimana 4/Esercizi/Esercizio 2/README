@@ -1,1 +1,20 @@
-
+ESERCIZIO 1
+Nel foglio di lavoro è presente una tabella che rappresenta una anagrafica aziendale relativa ad una trentina di dipendenti, di determinati settori, rispetto i quali 
+a partire dalla data di nascita e dalla data di assunzione, nelle colonne F e G, è già stata calcolata l'età e l'anzianità lavorativa.
+Nelle successive colonne (H, I, J, K) viene chiesto di calcolare i seguenti incentivi:
+1) Incentivo 1 Attribuire 100 euro SE il dipendente ha almeno 10 anni lavorati. (nella colonna H dovrà pertanto essere restituito 100 oppure 0 
+   se il lavoratore ha o non ha 10 anni di lavoro completati).
+2) Incentivo 2 Attribuire 100 euro SE il dipendente appartiene al settore della Produzione. (nella colonna I dovrà pertanto essere restituito 100 oppure 0)
+3) Incentivo 3 Attribuire 100 euro SE il dipendente è del settore Amministrazione e ha almeno 10 anni di lavoro (nella colonna H dovrà pertanto essere restituito 
+   100 solo per gli amministrativi con 10 anni di lavoro)
+4) Incentivo 4 Attribuire 100 euro se la persona è della Direzione oppure del settore Commerciale (nella colonna K solo commerciali e direttori dovrà essere restituito 
+   il valore 100) 
+   
+ESERCIZIO 2
+Nel foglio di lavoro è presente una tabella che rappresenta una anagrafica aziendale relativa ad una trentina di dipendenti, di determinati settori, rispetto i quali 
+a partire dalla data di nascita e dalla data di assunzione, nelle colonne F e G, è già stata calcolata l'età e l'anzianità lavorativa.
+Nelle successive colonne (H, I) viene chiesto di calcolare i seguenti incentivi:
+1) Incentivo 1 Attribuire 100 euro di incentivo se il dipendente ha più di 10 anni lavorativi, oppure di 200 euro se il dipendete ha di 20 anni lavorativi. 
+   Nella colonna H deve essere restituito 0, se ha meno di 10 anni; 100 se ha da 10 (compresi) fino a 19; 200 euro se ha almeno 20 anni (completati).
+2) Incentivo 2 Attribuire 50 euro se il dipendente è del settore Produzione; 70 euro se è del settore amministrativo; 90 euro se appartiene ad altri settori. Nella 
+   colonna I dovrà essere restituito 50 = Produzione; 70 = Amministrazione; 90 se Direzione o Commerciale
