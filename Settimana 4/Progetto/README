@@ -1,1 +1,33 @@
+Progetto finale: Gestione Date
 
+1) Calcolare l'età
+
+Nel foglio di lavoro è inserita una tabella che rappresenta una anagrafica aziendale relativa ad una trentina di dipendenti rispetto i quali, a partire dalla data 
+di nascita e dalla data di assunzione viene chiesto di:
+1. Nelle colonne F e G, calcolare rispettivamente l'età anagrafica e lavorativa
+2. Nella colonna G applicare una formattazione condizionale di colore verde se l'anzianità lavorativa è inferiore a 5 anni
+NOTA: l'età può essere calcolata con 3 distinte formule e funzioni.
+
+2) Mesi e giorni lavorativi
+
+Nel foglio di lavoro sono presenti due date fra le quali effettuare il calcolo della differenza di mesi e giorni.  E' inoltre disponibile l'elenco di tutte le festività 
+dell'anno 2020 per prendere visione delle vacanze nel calcolo dei giorni lavorativi.
+viene chiesto di:
+1. Nella cella C8: calcolare il numero della settimana della data presente nella cella B8
+2. Nella cella B11: calcolare i giorni intercorsi fra due date presenti sul foglio di lavoro
+3. Nella cella B14: calcolare i mesi intercorsi fra due date presenti sul foglio di lavoro
+4. Nella cella B17: calcolare i giorni lavorativi intercorsi fra le due presenti sul foglio di lavoro
+5. Nella cella B20: aggiungere 100 giorni lavorativi a partire da una data
+6. LA SFIDA, nel secondo foglio di lavoro è inserita una data di scadenza, si vuole creare una info (Countdown) che permetta le restituzione di una voce tipo: mancano 
+6 anni 1 mesi 10 giorni
+
+3) Calcolare orario
+
+Nel foglio di lavoro è caricata una tabella che rappresenta un orario di lavoro settimanale con entrata e uscita (mattina e pomeriggio).
+viene chiesto di:
+1. Nella colonna calcolare il totale delle ore di lavoro giornaliere (presenti in ogni riga).
+2. Nella cella H11 calcolare il totale settimanale di lavoro.
+3. Applicare la giusta formattazione al formato ora per consentire la totalizzazione delle ore. nella cella H11
+4. Nella colonna H17 calcolare il compenso, prevedendo che fino a 36 ore la retribuzione è di € 17,50 mentre oltre le 36 ore la retribuzione viene considerata 
+straordinaria e retribuita € 19,00
+4. Nelle celle H14 e H17 distinguere la quota ordinaria e straordinaria del compenso
